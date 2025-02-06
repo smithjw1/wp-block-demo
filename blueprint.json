@@ -49,16 +49,16 @@
       }
     },
     {
-      "step": "installPlugin",
-      "options": {
-        "activate": true,
-        "targetFolderName": "api-monster"
-      },
-      "pluginData": {
-        "caption": "Installing API Monster",
+      "step": "writeFile",
+      "path": "/wordpress/wp-content/plugins/api-monster.php",
+      "data": {
         "resource": "url",
         "url": "https://raw.githubusercontent.com/smithjw1/wp-block-demo/trunk/api-monster.php"
       }
+    },
+    {
+      "step": "activatePlugin",
+      "pluginPath": "api-monster.php"
     }
   ]
 }
