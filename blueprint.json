@@ -57,7 +57,7 @@
       "pluginData": {
         "caption": "Installing API Monster",
         "resource": "url",
-        "url": "https://raw.githubusercontent.com/smithjw1/wp-block-demo/trunk/api-monsters.zip"
+        "url": "https://raw.githubusercontent.com/smithjw1/wp-block-demo/trunk/api-monster.php"
       }
     }
   ]
