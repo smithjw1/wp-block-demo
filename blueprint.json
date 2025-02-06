@@ -45,7 +45,7 @@
       "pluginData": {
         "caption": "Installing SRD Monster",
         "resource": "url",
-        "url": "https://github-proxy.com/proxy/?repo=Automattic/remote-data-blocks&release=latest&asset=remote-data-blocks.zip"
+        "url": "https://raw.githubusercontent.com/smithjw1/wp-block-demo/trunk/srd-monsters.zip"
       }
     },
     {
@@ -57,7 +57,7 @@
       "pluginData": {
         "caption": "Installing API Monster",
         "resource": "url",
-        "url": "https://github-proxy.com/proxy/?repo=Automattic/remote-data-blocks&release=latest&asset=remote-data-blocks.zip"
+        "url": "https://raw.githubusercontent.com/smithjw1/wp-block-demo/trunk/api-monsters.zip"
       }
     }
   ]
