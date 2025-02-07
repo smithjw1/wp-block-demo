@@ -59,6 +59,16 @@
     {
       "step": "activatePlugin",
       "pluginPath": "api-monster.php"
+    },
+    {
+      "step": "installTheme",
+      "themeData": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/smithjw1/wp-block-demo/trunk/theme.zip"
+      },
+      "options": {
+        "activate": true
+      }
     }
   ]
 }
