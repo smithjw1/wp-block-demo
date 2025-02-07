@@ -23,8 +23,5 @@ node_modules/
 # Output of `npm pack`
 *.tgz
 
-# Output of `wp-scripts plugin-zip`
-*.zip
-
 # dotenv environment variables file
 .env
