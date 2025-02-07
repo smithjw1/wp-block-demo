@@ -1,0 +1,86 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wpvip/srd-monster",
+  "version": "0.1.0",
+  "title": "SRD Monster",
+  "category": "widgets",
+  "icon": "pets",
+  "description": "Create your favorite monster.",
+  "attributes": {
+    "name": {
+      "type": "string",
+      "source": "html",
+      "selector": "h2"
+    },
+    "actions": {
+      "type": "string",
+      "source": "html",
+      "selector": ".monsterActions"
+    },
+    "size": {
+      "type": "string",
+      "source": "text",
+      "selector": ".monsterSize"
+    },
+    "type": {
+      "type": "string",
+      "source": "text",
+      "selector": ".monsterType"
+    },
+    "ac": {
+      "type": "number"
+    },
+    "hitDie": {
+      "type": "string",
+      "source": "text",
+      "selector": ".hit-die"
+    },
+    "hitPoints": {
+      "type": "number"
+    },
+    "land": {
+      "type": "number"
+    },
+    "burrow": {
+      "type": "number"
+    },
+    "fly": {
+      "type": "number"
+    },
+    "swim": {
+      "type": "number"
+    },
+    "str": {
+      "type": "number"
+    },
+    "dex": {
+      "type": "number"
+    },
+    "con": {
+      "type": "number"
+    },
+    "int": {
+      "type": "number"
+    },
+    "wis": {
+      "type": "number"
+    },
+    "cha": {
+      "type": "number"
+    },
+    "savingThrows": {
+      "type": "object"
+    },
+    "damageModifications": {
+      "type": "object"
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "srd-monster",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

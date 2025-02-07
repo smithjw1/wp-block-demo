@@ -1,0 +1,17 @@
+{
+  "name": "block-demo",
+  "version": "0.0.1",
+  "description": "WordPress Playground powered demo of blocks",
+  "main": "",
+  "author": "Jacob Smith",
+  "license": "GPL-2.0-or-later",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package:custom-block": "npm --prefix ./srd-monster run plugin-zip",
+    "package:theme": "npm-build-zip --source=./theme --name=theme --name_only=true",
+    "package": "npm run package:custom-block && npm run package:theme"
+  },
+  "devDependencies": {
+    "npm-build-zip": "^1.0.4"
+  }
+}

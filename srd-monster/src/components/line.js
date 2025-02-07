@@ -1,0 +1,1 @@
+export const Line = () => (<svg><polyline points="0,0 360,2.5 0,5" style={{ fill: "#922610", stroke: "#922610" }}></polyline></svg>)

@@ -1,0 +1,69 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-wpvip-srd-monster {
+    border-top: 6px solid #e69a28; 
+    background-color: #fdf1dc; 
+    padding:10px 8px 5px 8px; 
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
+    background-image: url("assets/fond-mm-effet.png"), url("assets/fond-ph.jpg");
+    background-repeat: no-repeat, repeat;
+    
+    h2 {
+        margin-top: 0;
+        margin-bottom: 0.3em;
+        font-family: Georgia, "Times New Roman", serif;
+    }
+    h2, ul.basics, table.stats, ul.extras {
+        color: #6D0000;
+    }
+    p.meta {
+        font-style: italic;
+        margin: 0;
+    }
+    ul.basics, ul.extras {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        li ul {
+            list-style: none;
+            display: inline;
+            padding: 0;
+            margin: 0;
+            &:before {
+                content: " "
+            }
+            li {
+                display: inline;
+                &:after {
+                    content: ", "
+                }
+                &:last-child::after {
+                    content: ""
+                }
+            }
+        }
+    }
+    svg {
+        width: 100%;
+        height: 5px;
+    }
+    table.stats {
+        margin: 0;
+    }
+    .saving-throw-mod {
+        text-transform: capitalize;
+    }
+    h3 {
+        color: #6D0000;
+        margin: 0.3em 0 0.5em 0;
+        border-bottom: 1px solid #B30303;
+        font-variant: small-caps;
+        margin-bottom: 0.5em;
+    }
+    
+}

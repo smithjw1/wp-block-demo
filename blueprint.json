@@ -45,7 +45,7 @@
       "pluginData": {
         "caption": "Installing SRD Monster",
         "resource": "url",
-        "url": "https://raw.githubusercontent.com/smithjw1/wp-block-demo/trunk/srd-monster.zip"
+        "url": "https://raw.githubusercontent.com/smithjw1/wp-block-demo/trunk/srd-monster/srd-monster.zip"
       }
     },
     {
