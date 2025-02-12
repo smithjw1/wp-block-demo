@@ -17,8 +17,8 @@ Each block can have custom settings, these are set under the top level [settings
 {
     "settings": {
         "blocks": {
-			"core/heading": {
-				"color": {
+            "core/heading": {
+                "color": {
 					"custom": false,
 					"text": false,
 					"background": false
@@ -59,18 +59,18 @@ Often you have properties defined in your design system. These can include hex c
 {
     "settings": {
         "custom": {
-                    "themeNews": {
-                        "color": {
-                            "general": {
-                                "brand020": "#3a79bb",
-                                "section060": "#2b5c8c"
-                            },
-                            "web": {
-                                "brand030": "#a0c3e5"
-                            }
-                        }
+            "themeNews": {
+                "color": {
+                    "general": {
+                        "brand020": "#3a79bb",
+                        "section060": "#2b5c8c"
+                    },
+                    "web": {
+                        "brand030": "#a0c3e5"
                     }
                 }
+            }
+        }
     }
 }
 ```
