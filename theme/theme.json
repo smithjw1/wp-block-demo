@@ -179,7 +179,8 @@
 				"color": {
 					"custom": false,
 					"text": false,
-					"background": false
+					"background": false,
+					"link": false
 				}
 			}
 		},
