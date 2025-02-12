@@ -11,7 +11,7 @@
   "features": {
     "networking": true
   },
-  "landingPage": "/wp-admin/admin.php?page=remote-data-blocks-settings",
+  "landingPage": "/wp-admin/post-new.php",
   "login": true,
   "preferredVersions": {
     "php": "8.2",

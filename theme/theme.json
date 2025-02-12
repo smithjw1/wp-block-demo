@@ -19,24 +19,24 @@
 					"slug": "contrast"
 				},
 				{
-					"color": "var(--wp--custom--theme-news--color--paper--brand-020)",
+					"color": "var(--wp--custom--theme-news--color--general--brand-020)",
 					"name": "News Brand 20",
 					"slug": "news-brand-20"
 				},
 				{
-					"color": "var(--wp--custom--theme-news--color--paper--section-060)",
+					"color": "var(--wp--custom--theme-news--color--general--section-060)",
 					"name": "News Section 60",
 					"slug": "news-section-60"
 				},
 				{
-					"color": "var(--wp--custom--theme-fab--color--paper--brand-020)",
-					"name": "Fab Brand 20",
-					"slug": "fab-brand-20"
+					"color": "var(--wp--custom--theme-life--color--general--brand-020)",
+					"name": "life Brand 20",
+					"slug": "life-brand-20"
 				},
 				{
-					"color": "var(--wp--custom--theme-fab--color--paper--section-070)",
-					"name": "Fab Section 70",
-					"slug": "fab-section-70"
+					"color": "var(--wp--custom--theme-life--color--general--section-070)",
+					"name": "life Section 70",
+					"slug": "life-section-70"
 				}
 			]
 		},
@@ -186,7 +186,7 @@
 		"custom": {
 			"themeNews": {
 				"color": {
-					"paper": {
+					"general": {
 						"brand020": "#3a79bb",
 						"section060": "#2b5c8c"
 					},
@@ -195,9 +195,9 @@
 					}
 				}
 			},
-			"themeFab": {
+			"themeLife": {
 				"color": {
-					"paper": {
+					"general": {
 						"brand020": "#ea005e",
 						"section070": "#b30047"
 					},
@@ -235,7 +235,7 @@
 			},
 			"core/heading": {
 				"color": {
-					"text": "var:preset|color|news-brand-20"
+					"text": "var(--wp--custom--theme-news--color--general--brand-020)"
 				}
 			},
 			"core/button": {
@@ -366,7 +366,7 @@
 				}
 			},
 			"core/post-comments-form": {
-				"css": "& textarea, input:not([type=submit]){border-radius:.25rem; border-color: var(--wp--preset--color--fab-brand-20) !important;} & input[type=checkbox]{margin:0 .2rem 0 0 !important;} & label {font-size: var(--wp--preset--font-size--small); }",
+				"css": "& textarea, input:not([type=submit]){border-radius:.25rem; border-color: var(--wp--preset--color--life-brand-20) !important;} & input[type=checkbox]{margin:0 .2rem 0 0 !important;} & label {font-size: var(--wp--preset--font-size--small); }",
 				"typography": {
 					"fontSize": "var:preset|font-size|medium"
 				},
@@ -534,7 +534,7 @@
 				}
 			},
 			"core/search": {
-				"css": "& .wp-block-search__input{border-radius:3.125rem;padding-left:1.5625rem;padding-right:1.5625rem;border-color:var(--wp--preset--color--fab-brand-20);}",
+				"css": "& .wp-block-search__input{border-radius:3.125rem;padding-left:1.5625rem;padding-right:1.5625rem;border-color:var(--wp--preset--color--life-brand-20);}",
 				"typography": {
 					"fontSize": "var:preset|font-size|medium",
 					"lineHeight": "1.6"
@@ -564,7 +564,7 @@
 					"width": "0 0 1px 0"
 				},
 				"color": {
-					"text": "var:preset|color|fab-brand-20"
+					"text": "var:preset|color|life-brand-20"
 				},
 				"variations": {
 					"wide": {
