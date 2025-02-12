@@ -95,7 +95,7 @@ The function to remove theme patterns is not normally necessary but the filter f
 
 ### Included patterns
 
-The Teaser and Read More patterns demonstrate several block and pattern features:
+The [Teaser](./theme/patterns/teaser.php) and [Read More](./theme/patterns/read-more-in.php) patterns demonstrate several block and pattern features:
 
  * **Block renaming** - Blocks can be given custom names to guide content creators in their use.
  * **Specific formatting** - Image sizes and headline formatting are specified.
