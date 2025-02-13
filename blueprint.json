@@ -19,6 +19,33 @@
   },
   "steps": [
     {
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "wordpress.org/plugins",
+        "slug": "jetpack"
+      },
+      "options": {
+        "activate": true
+      }
+    },
+    {
+      "step": "defineWpConfigConsts",
+      "consts": {
+        "JETACK_DEBUG": "true",
+        "JETPACK_DEV_DEBUG": "true",
+        "DNS_NS": 0
+      }
+    },
+    {
+      "step": "setSiteOptions",
+      "options": {
+        "jetpack_active_modules": [
+          "blocks",
+          "subscriptions"
+        ]
+      }
+    },
+    {
       "step": "defineWpConfigConsts",
       "consts": {
         "USE_PLAYGROUND_CORS_PROXY": true
