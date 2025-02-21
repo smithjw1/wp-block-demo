@@ -1,0 +1,58 @@
+{
+    "$schema": "https://api.wpvip.com/schemas/plugins/governance.json",
+    "version": "1.0.0",
+    "rules": [
+        {
+            "type": "default",
+            "allowedFeatures": [],
+            "allowedBlocks": [
+                "core/group",
+                "core/heading",
+                "core/paragraph",
+                "core/image",
+                "core/button",
+                "remote-data-blocks/*"
+            ],
+            "blockSettings": {
+                "core/quote": {
+                    "core/paragraph": {
+                        "color": {
+                            "text": true,
+                            "palette": [
+                                {
+                                    "color": "#00FF00",
+                                    "name": "Custom green",
+                                    "slug": "custom-green"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "role",
+            "roles": [
+                "administrator"
+            ],
+            "allowedFeatures": [
+                "codeEditor",
+                "lockBlocks"
+            ],
+            "allowedBlocks": [
+                "wpvip/*",
+                "core/*"
+            ]
+        },
+        {
+            "type": "postType",
+            "postTypes": [
+                "gbtbooks"
+            ],
+            "allowedFeatures": [],
+            "allowedBlocks": [
+                "remote-data-blocks/*"
+            ]
+        }
+    ]
+}
