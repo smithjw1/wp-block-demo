@@ -10,8 +10,7 @@
                 "core/heading",
                 "core/paragraph",
                 "core/image",
-                "core/button",
-                "remote-data-blocks/*"
+                "core/button"
             ],
             "blockSettings": {
                 "core/quote": {
