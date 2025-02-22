@@ -89,7 +89,7 @@
     },
     {
       "step": "writeFile",
-      "path": "/wordpress/wp-content/plugins/books/books.php",
+      "path": "/wordpress/wp-content/plugins/books.php",
       "data": {
         "resource": "url",
         "url": "https://raw.githubusercontent.com/smithjw1/wp-block-demo/trunk/books.php"
