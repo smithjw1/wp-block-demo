@@ -97,7 +97,7 @@
     },
     {
       "step": "activatePlugin",
-      "pluginPath": "books/books.php"
+      "pluginPath": "books.php"
     },
     {
       "step": "wp-cli",
