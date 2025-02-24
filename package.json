@@ -9,9 +9,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "package:custom-block": "npm --prefix ./srd-monster run plugin-zip",
     "package:theme": "npm-build-zip --source=./theme --name=theme --name_only=true",
-    "package": "npm run package:custom-block && npm run package:theme"
+    "package": "npm run package:custom-block && npm run package:theme",
+    "prepare": "husky"
   },
   "devDependencies": {
+    "husky": "^9.1.7",
     "npm-build-zip": "^1.0.4"
   }
 }

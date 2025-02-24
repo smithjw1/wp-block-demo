@@ -128,6 +128,17 @@
       "code": "<?php require '/wordpress/wp-load.php'; $user_id = wp_create_user('editor', 'pass', 'myuser@localhost'); (new WP_User($user_id))->set_role('editor');"
     },
     {
+      "step": "installPlugin",
+      "pluginData": {
+        "caption": "Installing VIP Workflow",
+        "resource": "url",
+        "url": "https://github-proxy.com/proxy/?repo=Automattic/vip-workflow-plugin"
+      },
+      "options": {
+        "activate": false
+      }
+    },
+    {
       "step": "installTheme",
       "themeData": {
         "resource": "url",
@@ -135,6 +146,13 @@
       },
       "options": {
         "activate": true
+      }
+    },
+    {
+      "step": "importWxr",
+      "file": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/smithjw1/wp-block-demo/trunk/content.xml"
       }
     }
   ]
