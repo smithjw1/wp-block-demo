@@ -4,6 +4,8 @@ This repo use [WordPress Playground](https://playground.wordpress.net/) to provi
 
 [![Launch in WordPress Playground](https://img.shields.io/badge/Launch%20in%20WordPress%20Playground-DA9A45?style=for-the-badge&logo=wordpress)](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/smithjw1/wp-block-demo/trunk/blueprint.json)
 
+**Note: WordPress Playground sometimes retains state from previous sessions. Opening a new incognito window may be necessary to get a fresh start.**
+
 ## Core Blocks
 WordPress comes with dozens of core blocks that support a huge number of editorial needs. You can control many aspects of core blocks with `theme.json` a file included with your WordPress theme. 
 
@@ -118,6 +120,31 @@ Remote Data Blocks is a WordPress plugin that makes it easy to combine content a
 A [simple plugin](./api-monster.php) is included to demonstrate the use of remote data blocks. It also loads information about monsters from the open-source rules of Dungeons and Dragons.
 
 Without this plugin, significant custom development would be necessary to retrieve, cache, and output this third-party information.
+
+## VIP Governance
+
+This demo also includes the [VIP Block Governance](https://github.com/Automattic/vip-governance-plugin) plugin. A test configuration is [included](./governance-rules.json) to demonstrate the use of the plugin to control the use of blocks.
+
+The included configuration allows for the use of the following blocks for all users:
+
+* core/group
+* core/heading
+* core/paragraph
+* core/image
+* core/button
+
+Administrators have additional capabilities and access to more blocks. 
+
+A new user with the editor role is created to test the plugin's use with non-administrative users. You can log in as the editor user with the username `editor` and the password `password`.
+
+Additionally, the book post type is created to demonstrate the use of the plugin with post types. The book post type allows access to remote data blocks for all user roles.
+
+Finally, the rules specify a specific color palette for paragraph blocks contained within a quote block.
+
+## VIP Workflow
+
+This demo also includes the [VIP Workflow](https://github.com/Automattic/vip-workflow-plugin) plugin. This plugin is still in beta, so it is not active by default.
+
 
 ## Testing with WordPress playground
 Because WordPress playground runs completely in the browser it is easy to create links to test this package with alternative WordPress configurations.

@@ -40,7 +40,9 @@
             ],
             "allowedBlocks": [
                 "wpvip/*",
-                "core/*"
+                "core/*",
+                "remote-data-blocks/*",
+                "jetpack/*"
             ]
         },
         {
